@@ -59,8 +59,14 @@ body {
     background-color: var(--VeryPaleBlue);
     margin-left: 25px;
     margin-right: 25px;
-    padding: 14px;
+    padding: 16px;
     border-radius: 10px;
+    position: relative;
+}
+
+.container-annual-plan {
+    position: absolute;
+    left: 80px;
 }
 
 .annual-plan {
