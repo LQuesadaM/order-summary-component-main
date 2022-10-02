@@ -34,7 +34,7 @@ body {
     height: 28%;
     background-image: url("/images/illustration-hero.svg");
     background-size: cover;
-    margin-bottom: 26px;
+    margin-bottom: 32px;
 }
 
 .main__title {
@@ -46,7 +46,7 @@ body {
 .main__description {
     color: var(--DesaturatedBlue);
     padding: 0 30px;
-    line-height: 26px;
+    line-height: 24px;
     font-weight: 500;
     margin-bottom: 24px;
 }
