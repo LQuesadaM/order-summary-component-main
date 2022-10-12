@@ -59,6 +59,7 @@ body {
     background-color: var(--VeryPaleBlue);
     margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 20px;
     padding: 16px;
     border-radius: 10px;
     position: relative;
@@ -88,21 +89,43 @@ body {
 
 .link-change:active {
     text-decoration: none;
-    color: var(--DesaturatedBlue);
+    color: hsl(245, 83%, 68%);
 }
 
+.button__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.payment {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--BrightBlue);
+    color: #fff;
+    padding: 10px;
+    padding: 15px 68px;
+    box-shadow: 0 20px 14px var(--PaleBlue);
+    margin-bottom: 28px;
+    font-weight: 900;
+}
 
+.cancel-button {
+    background-color: transparent;
+    color: var(--DesaturatedBlue);
+    border: none;
+    font-weight: 800;   
+}
 
+.payment:hover {
+    cursor: pointer;
+    background-color: hsl(245, 83%, 68%);
+}
 
-
-
-
-
-
-
-
-
+.cancel-button:hover {
+    cursor: pointer;
+    color: #000;
+}
 
 
 .attribution {
